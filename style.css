@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 340px;
+  margin-top: -170px; /* Half the height */
+  margin-left: -125px; /* Half the width */
+}
