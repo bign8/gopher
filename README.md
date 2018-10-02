@@ -15,3 +15,14 @@ SVGs designed by [keygx](https://github.com/keygx) and licensed under the Creati
 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 This code is licensed under (TODO: figure out this license)
+
+
+## Docker Development
+
+For local development, the serving logic has been encapsulated in a dockerfile.
+
+```sh
+docker build -t bign8/gopher .
+docker run -it --rm -p 8080:8080 bign8/gopher .
+curl localhost:8080
+```
